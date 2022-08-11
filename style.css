@@ -1,0 +1,67 @@
+body {
+    background-color: #4d4d4d;
+    color: #f7931a;
+    font-family: Arial, Verdana;
+}
+a {
+    color: #e2e5de;
+}
+a:hover {
+    color: #f7931a;
+}
+a:visited {
+    color:coral;
+}
+a:active {
+    color: red;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #f7931a;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(243, 165, 20, 0.5), 
+    -5px -5px 4px rgba(247, 147, 26, 0.4);
+}
+img:hover {
+    box-shadow: 8px 8px 8px rgba(243, 165, 20, 0.5);
+}
+.btc {
+    background-color: #f7931a;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.blacktext {
+    color: black;
+    margin: 0px;
+}
+.greytext {
+    color: #4d4d4d;
+    font-size: small;
+    margin: 2px;
+}
+button {
+    margin: 2px;
+    padding: 3px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+}
+button:hover {
+    margin: 2px;
+    padding: 3px;
+    background-color: black;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 1px 2px 0px 0px black;
+}
+.btclogo {
+    display: block;
+    width: 100px;
+    height: auto;
+}
